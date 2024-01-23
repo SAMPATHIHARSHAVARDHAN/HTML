@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Controls</title>
+</head>
+
+<body>
+    <form action="Prog1.html" method="post">
+        <input type="hidden" name="hidden-content" value="123456" />
+        <label>Name</label>
+        <input type="text" name="username" id="username" placeholder="Enter Your Name" /><br>
+        <label>Age</label>
+        <input type="number" name="age" id="age" placeholder="Enter Your Age" min="18" max="25" /><br>
+        <input type="checkbox" value="SSC" checked="true">SSC</input>
+        <input type="checkbox" value="Inter">Inter</input>
+        <input type="checkbox" value="B.Tech">B.Tech</input><br>
+        <input type="radio" value="Male" name="gender" checked="true">Male</input>
+        <input type="radio" value="FeMale" name="gender">FeMale</input><br>
+        <label>Select Color</label><input type="color" /> <br>
+        <label>email</label>
+        <input type="email" name="email" /><br>
+        <label>Date of Join</label>
+        <input type="date" name="doj" /><br>
+        <label>Date of Exit</label>
+        <input type="datetime-local" name="doj" /><br>
+        <label>Week</label>
+        <input type="week" /><br>
+        <lable>Month</lable>
+        <input type="month" /><br>
+        <input type="image"
+            src="data:image/jpeg;base64,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"
+            width="100px" height="100px" /><br>
+        <input type="range"><br>
+        <label>Search</label>
+        <input type="search" name="searchcontent" /><br>
+        <label>Join time</label>
+        <input type="time"><br>
+        <label>Website Address</label>
+        <input type="url" /><br>
+
+        <select id="city" name="city">
+            <option value="Ongole">Ongole</option>
+            <option value="Guntur">Guntur</option>
+            <option value="Nellore">Nellore</option>
+            <option value="Kavali">Kavali</option>
+        </select><br>
+        <input list="city">
+        <datalist id="city">
+            <option value="Ongole">Ongole</option>
+            <option value="Guntur">Guntur</option>
+            <option value="Nellore">Nellore</option>
+            <option value="Kavali">Kavali</option>
+        </datalist>
+        </input><br>
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile"><br>
+        <textarea name="address" rows="10" cols="40">
+            KKCC INFO SYTEMS
+            Ongole
+            Andhrapradesh
+            India
+            </textarea><br>
+        <input type="submit" value="Save" />
+        <input type="reset" value="Reset" />
+        <input type="button" value="Hit Me" onclick="alert('Hai')" />
+    </form>
+</body>
+
+</html>
